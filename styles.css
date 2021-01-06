@@ -1,0 +1,25 @@
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+padding:5px;
+border-radius: 25px;
+border: 1px solid#00F;
+}
+
+.row {
+    justify-content: center; 
+}
+
+button {
+    font-Family: 'Langar', cursive;
+    margin: 0 25px 0 25px;
+    width: 90px;
+    color: #00F;
+    border-radius: 10px;
+}
+
+button.hover {
+    color: #F00;
+}

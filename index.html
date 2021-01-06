@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+  <script src="script.js"></script> 
+</head>
+
+<body>
+  <img src="hugbun.png" alt="bunny">
+  <div class="column">
+    <p class="row">
+      <button onclick="bunny('true')">Hug</button>
+      <button onclick="bunny('false')">No Hug</button>
+    </p>
+  </div>
+  <script>
+ 
+    function bunny () {
+        var image = document.getElementById('bunny');
+        if (bunny=='true') {
+            return image.src='yesHug.png';
+        } else if (bunny=='false') {
+            return image.src='noHug.png';
+        } else {
+            return image.src='hugbun.png';
+        }
+    }
+    </script>
+</body>

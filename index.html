@@ -8,24 +8,24 @@
 </head>
 
 <body>
-  <img src="hugbun.png" alt="bunny">
+  <img src="hugbun.png" alt="bunny" id="bunny">
   <div class="column">
     <p class="row">
-      <button onclick="bunny('true')">Hug</button>
-      <button onclick="bunny('false')">No Hug</button>
+      <button >Hug</button>
+      <button >No Hug</button>
     </p>
   </div>
   <script>
  
-    function bunny () {
-        var image = document.getElementById('bunny');
-        if (bunny=='true') {
-            return image.src='yesHug.png';
-        } else if (bunny=='false') {
-            return image.src='noHug.png';
-        } else {
-            return image.src='hugbun.png';
-        }
-    }
+function bunny (bunny) {
+   let image = document.getElementById('bunny');
+   if (bunny == 'true') {
+     return image.src = 'yesHug.png';
+   } else if (bunny == 'false') {
+     return image.src = 'noHug.png';
+   } else {
+     return image.src = 'hugbun.png';
+   }
+}
     </script>
 </body>

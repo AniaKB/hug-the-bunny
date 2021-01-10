@@ -1,0 +1,29 @@
+{
+  "name": "hug-the-bunny",
+  "version": "1.0.0",
+  "description": "Hug the bunny?",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint script.js index.html"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-tjw-base": "^1.0.0",
+    "eslint-plugin-html": "^6.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniaKB/hug-the-bunny.git"
+  },
+  "keywords": [
+    "hug",
+    "the",
+    "bunny"
+  ],
+  "author": "AniaKB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AniaKB/hug-the-bunny/issues"
+  },
+  "homepage": "https://github.com/AniaKB/hug-the-bunny#readme"
+}

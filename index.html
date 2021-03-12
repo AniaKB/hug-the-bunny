@@ -4,28 +4,16 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
-  <script src="script.js"></script> 
+  <script src="script.js" defer></script> 
 </head>
 
 <body>
   <img src="hugbun.png" alt="bunny" id="bunny">
   <div class="column">
     <p class="row">
-      <button >Hug</button>
-      <button >No Hug</button>
+      <button id="hug">Hug</button>
+      <button id="no-hug">No Hug</button>
     </p>
   </div>
-  <script>
- 
-function bunny (bunny) {
-   let image = document.getElementById('bunny');
-   if (bunny == 'true') {
-     return image.src = 'yesHug.png';
-   } else if (bunny == 'false') {
-     return image.src = 'noHug.png';
-   } else {
-     return image.src = 'hugbun.png';
-   }
-}
-    </script>
+
 </body>
